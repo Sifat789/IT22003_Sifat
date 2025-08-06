@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="15" xmlns:fx="http://javafx.com/fxml/1" fx:controller="QuizController">
+    <Label fx:id="questionLabel" wrapText="true"/>
+    <RadioButton fx:id="optionA"/>
+    <RadioButton fx:id="optionB"/>
+    <RadioButton fx:id="optionC"/>
+    <RadioButton fx:id="optionD"/>
+    <Button text="পরবর্তী" onAction="#handleNext"/>
+    <Label fx:id="scoreLabel" style="-fx-text-fill:green"/>
+</VBox>

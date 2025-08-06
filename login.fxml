@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+    <Label text="স্টুডেন্ট আইডি দিয়ে লগইন করুন"/>
+    <TextField fx:id="studentIdField" promptText="স্টুডেন্ট আইডি"/>
+    <Button text="লগইন" onAction="#handleLogin"/>
+    <Label fx:id="messageLabel" style="-fx-text-fill:red"/>
+</VBox>
