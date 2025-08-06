@@ -46,7 +46,7 @@ public class QuizController {
             optionD.setToggleGroup(group);
         } else {
             // Quiz finished
-            questionLabel.setText("আপনার স্কোর: " + student.getScore() + "/" + questions.length);
+            questionLabel.setText("আপনার স্কোর: " + student.getScore() + "/" + 6);
             optionA.setVisible(false);
             optionB.setVisible(false);
             optionC.setVisible(false);
@@ -59,7 +59,7 @@ public class QuizController {
         if (group.getSelectedToggle() != null) {
             RadioButton selected = (RadioButton) group.getSelectedToggle();
             if (selected.getText().equals(answers[currentQuestion])) {
-                student.addScore(1);
+                student.addScore(3);
             }
             currentQuestion++;
             loadQuestion();
@@ -68,3 +68,4 @@ public class QuizController {
         }
     }
 }
+
