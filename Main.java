@@ -14,7 +14,7 @@ public class Main extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(fxmlFile.toURI().toURL());
 
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("High School Quiz");
+        stage.setTitle("Quiz");
         stage.setScene(scene);
         stage.show();
     }
@@ -23,3 +23,4 @@ public class Main extends Application {
         launch();
     }
 }
+
