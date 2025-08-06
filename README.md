@@ -12,18 +12,9 @@
 
 
 ## Screenshots
-
-**Login Screen**
-
-![Login Screen](screenshots/login.png)  
-
-**Quiz Screen**
-
-![Quiz Screen](screenshots/quiz.png)  
-
-**Score Screen**
-
-![Score Screen](screenshots/score.png)  
+<img width="361" height="246" alt="Screenshot 2025-08-06 173152" src="https://github.com/user-attachments/assets/e23edc56-1e4d-4d03-995b-d7d8baa9aac0" />
+<img width="344" height="210" alt="Screenshot 2025-08-06 173224" src="https://github.com/user-attachments/assets/5ad30561-8252-4314-b3bc-eefe8b19a05f" />
+<img width="442" height="274" alt="Screenshot 2025-08-06 173259" src="https://github.com/user-attachments/assets/67801aec-b335-48ff-96d3-bf446254ccbb" />
 
 # Notes
 
