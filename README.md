@@ -18,5 +18,5 @@
 
 # Notes
 
-- Only student IDs defined in `LoginController` are allowed to play.
+- Only defined student ID allowed to play.
 - Questions and options are in **Bangla**.
